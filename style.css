@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Didact+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', 'Didact Gothic', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('2.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 8%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le contraste */
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.description .left h1 {
+    font-size: 50px;
+}
+
+.description .left p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.description .left a {
+    border: 1px solid rgb(240, 156, 156);
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(240, 156, 156);
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.description .left a:hover {
+    letter-spacing: 1px;
+}
+
+.Notrecollection {
+    background-color: rgba(212, 126, 126, 0.5); /* Fond semi-transparent pour le contraste */
+    padding: 150px;
+    text-align: center;
+    color: white;
+}
+
+.Notrecollection h1 {
+    font-size: 36px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le contraste */
+    color: white;
+    padding: 66px;
+    display: flex;
+    justify-content: space-around;
+    pad
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+}
+
+hr {
+    border-color: white;
+    margin: 10px 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 8%;
+}
+
+
+
+.logo {
+    color: rgb(255, 0, 191);
+    font-size: 35px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: rgb(243, 140, 228);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.menu li a:hover {
+    color: #fff;
+}
+
+.buy_li {
+    border: 1px solid rgb(240, 156, 156);
+    padding: 5px 8px;
+}
+
+.buy_li a {
+    color: rgb(240, 156, 156);
+}
+
+.menu .buy_li:hover a {
+    color: rgb(240, 156, 156);
+}
+
+
+
+footer li{
+    color: #fff;
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #b2b2b2;
+}
+
+
+
+footer p{
+    color: #b2b2b2;
+    text-align: left;
+    grid-column: 1;
+}
+
+
+
+.produits{
+    gap: 10rem;
+    padding: 1rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+.produits img{
+    width: 200%;
+}
